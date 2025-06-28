@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - Page Not Found | MedTrack</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9f5ec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #2f684e;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            font-size: 96px;
+            margin-bottom: 10px;
+            color: #2f684e;
+        }
+
+        .container p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+
+        .gfg-logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>404</h1>
+        <p>Oops! The page you're looking for doesn't exist or has been moved.</p>
+        <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
