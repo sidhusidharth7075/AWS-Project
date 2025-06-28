@@ -29,7 +29,7 @@ SNS_TOPIC_ARN=arn:aws:sns:ap-south-1:xxxxxxxxxxxx:your-topic-name
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/AWS-Project.git
-cd ServiceScheduler
+cd AWS-Project
 ```
 
 ### 2. Create and Activate a Virtual Environment
