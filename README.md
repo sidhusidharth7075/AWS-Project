@@ -26,6 +26,11 @@ SNS_TOPIC_ARN=arn:aws:sns:ap-south-1:xxxxxxxxxxxx:your-topic-name
 
 ## 🛠️ Installation
 
+```bash
+python --version
+python 3.10.11 # minimum 
+```
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/AWS-Project.git
