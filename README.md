@@ -35,7 +35,7 @@ cd AWS-Project
 ### 2. Create and Activate a Virtual Environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\scripts\Activate
 ```
 
 ### 3. Install Dependencies
