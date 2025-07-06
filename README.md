@@ -11,7 +11,7 @@ MedTrack is a Flask-based web application designed for managing healthcare appoi
 
 ```bash
 FLASK_SECRET_KEY=your_secret_key
-AWS_REGION=ap-south-1
+AWS_REGION=us-east-1
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 USERS_TABLE=MedTrack_Users
